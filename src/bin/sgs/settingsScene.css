@@ -1,0 +1,74 @@
+.root {
+    -fx-background-color: rgb(40, 40, 40);
+    -fx-background-image: url("icone-progetto/settingsScene.png");
+}
+
+#BorderPane {
+    -fx-padding: 10;
+}
+#GridPane {
+    -fx-padding: 10
+}
+
+
+/*//////////////////////////////////////*/
+.button {
+    -fx-background-color: rgb(200, 0, 0);
+    -fx-text-fill: whitesmoke;
+    -fx-font-family: fantasy;
+    -fx-font-size: 14;
+}
+.button:hover {
+    -fx-text-fill: black;
+    -fx-background-color: orange;
+    -fx-cursor: hand;
+}
+.button:pressed {
+    -fx-text-fill: black;
+    -fx-background-color: white;
+    -fx-effect: dropshadow(gaussian, black, 9, 0.5, 0, 0);
+}
+
+/*//////////////////////////////////////*/
+
+#Text {
+    -fx-fill: whitesmoke;
+    -fx-font-family: fantasy;
+    -fx-font-size: 16;
+    -fx-font-weight: bold;
+}
+#Text2 {
+    -fx-fill: whitesmoke;
+    -fx-font-family: fantasy;
+    -fx-font-weight: bolder;
+    -fx-font-size: 24;
+}
+#TextField {
+    -fx-cursor: text;
+    -fx-font-family: monospace;
+}
+
+
+.choice-box {
+    -fx-background-color: rgb(20, 20, 20);
+    -fx-text-fill: whitesmoke;
+    -fx-font-family: fantasy;
+    -font-size: 16;
+    -fx-effect: dropshadow(gaussian, rgb(20, 20, 20), 20, 0.3, 0, 3);
+    -fx-mark-color: orange;
+}
+.choice-box:hover {
+    -fx-background-color: rgb(50, 50, 50);
+    -fx-effect: dropshadow(gaussian, whitesmoke, 3, 0.2, 0, 0);
+    -fx-cursor: hand;
+}
+/* Background color of the whole context menu*/
+.choice-box .context-menu { -fx-background-color: rgb(20, 20, 20); }
+/* Focused item background color in the list */
+.choice-box .menu-item:focused { -fx-background-color: orange; -fx-cursor: hand; }
+/* Text color of non-focused items in the list */
+.choice-box .menu-item > .label { -fx-text-fill: white; -fx-font-family: fantasy; -font-size: 16;}
+/* Text color of focused item in the list */
+.choice-box .menu-item:focused > .label { -fx-text-fill: black; -fx-font-family: fantasy; -font-size: 16;}
+/* Text color of default selected item */
+.choice-box > .label { -fx-text-fill: white; -fx-font-family: fantasy; -font-size: 16;}

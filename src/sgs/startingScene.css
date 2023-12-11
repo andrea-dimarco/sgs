@@ -1,0 +1,58 @@
+.root {
+    -fx-background-color: rgb(40, 40, 40);
+}
+
+#BorderPane {
+    -fx-padding: 10;
+}
+
+
+/*//////////////////////////////////////*/
+.button:hover {
+    -fx-cursor: hand;
+}
+
+#infoButton {
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+    -fx-background-image: url("icone-progetto/info-icon.png");
+    -fx-background-size: 25px 25px;
+}
+#infoButton:hover {
+    -fx-effect: dropshadow(gaussian, white, 3, 0.2, 0, 0);
+}
+#infoButton:pressed {
+    -fx-effect: dropshadow(gaussian, white, 10, 0.2, 0, 0);
+}
+
+#beginButton {
+    -fx-background-color: rgb(20, 20, 20);
+    -fx-text-fill: whitesmoke;
+    -fx-font-family: fantasy;
+    -fx-effect: dropshadow(gaussian, rgb(20, 20, 20), 20, 0.3, 0, 3);
+    -fx-font-size: 20;
+}
+#beginButton:hover {
+    -fx-text-fill: white;
+    -fx-background-color: rgb(50, 50, 50);
+    -fx-effect: dropshadow(gaussian, whitesmoke, 3, 0.2, 0, 0);
+    -fx-cursor: hand;
+}
+#beginButton:pressed {
+    -fx-text-fill: black;
+    -fx-background-color: white;
+    -fx-effect: dropshadow(gaussian, black, 9, 0.5, 0, 0);
+}
+
+/*//////////////////////////////////////*/
+
+#LOGO {
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+    -fx-background-image: url("icone-progetto/SGS-icon.png");
+    -fx-background-size: 300px 300px;
+
+    -fx-cursor: default;
+}

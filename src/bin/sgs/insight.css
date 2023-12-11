@@ -1,0 +1,95 @@
+.root {
+    -fx-background-color: rgb(40, 40, 40);
+}
+
+#BORDER {
+    -fx-padding: 5;
+}
+
+#LEFT {
+    -fx-padding: 10;
+}
+#RIGHT {
+    -fx-padding: 10;
+}
+/*////////////////////////////////*/
+#TITLE {
+    -fx-font-family: fantasy;
+    -fx-font-size: 20;
+    -fx-font-wight: 900;
+    -fx-fill: white;
+}
+#STATS {
+    -fx-fill: whitesmoke;
+    -fx-font-family: fantasy;
+    -fx-font-size: 16;
+}
+#STATSparent {
+    -fx-fill: whitesmoke;
+    -fx-font-family: fantasy;
+    -fx-font-size: 15;
+    -fx-font-wight: 900;
+}
+#NAME {
+    -fx-font-size: 13;
+    -fx-font-wight: 900;
+    -fx-fill: whitesmoke;
+}
+
+#LIST
+{
+	-fx-fill: whitesmoke;
+}
+/*////////////////////////////////*/
+.button 
+{
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+}
+.button:hover {
+    -fx-cursor: hand;
+}
+
+#DEAD 
+{ 
+	-fx-background-image : url("icone-progetto/dead-icon.png"); 
+	-fx-background-size : 16px 16px;
+}
+
+#DEAD: hover
+{
+	-fx-cursor : default;
+}
+
+#INTJ { -fx-background-image: url("icone-progetto/rombo-viola.png"); }
+
+#INTP { -fx-background-image: url("icone-progetto/cerchio-viola.png"); }
+
+#ENTJ { -fx-background-image: url("icone-progetto/quadrato-viola.png"); }
+
+#ENTP { -fx-background-image: url("icone-progetto/triangolo-viola.png"); }
+
+#INFJ { -fx-background-image: url("icone-progetto/rombo-verde.png"); }
+
+#INFP { -fx-background-image: url("icone-progetto/cerchio-verde.png"); }
+
+#ENFJ { -fx-background-image: url("icone-progetto/quadrato-verde.png"); }
+
+#ENFP { -fx-background-image: url("icone-progetto/triangolo-verde.png"); }
+
+#ISTJ { -fx-background-image: url("icone-progetto/rombo-azzurro.png"); }
+
+#ISFJ { -fx-background-image: url("icone-progetto/cerchio-azzurro.png"); }
+
+#ESTJ { -fx-background-image: url("icone-progetto/quadrato-azzurro.png"); }
+
+#ESFJ { -fx-background-image: url("icone-progetto/triangolo-azzurro.png"); }
+
+#ISTP { -fx-background-image: url("icone-progetto/rombo-arancione.png"); }
+
+#ISFP { -fx-background-image: url("icone-progetto/cerchio-arancione.png"); }
+
+#ESTP { -fx-background-image: url("icone-progetto/quadrato-arancione.png"); }
+
+#ESFP { -fx-background-image: url("icone-progetto/triangolo-arancione.png"); }

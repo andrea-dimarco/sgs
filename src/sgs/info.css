@@ -1,0 +1,164 @@
+.root {
+    -fx-background-color: rgb(30,30,30);
+}
+
+#Analists {
+    -fx-fill: blueviolet;
+    -fx-font-family: monospace;
+    -fx-font-size: 20;
+}
+
+#Diplomats {
+    -fx-fill: palegreen;
+    -fx-font-family: monospace;
+    -fx-font-size: 20;
+}
+
+#Sentinels {
+    -fx-fill: deepskyblue;
+    -fx-font-family: monospace;
+    -fx-font-size: 20;
+}
+
+#Explorers {
+    -fx-fill: orange;
+    -fx-font-family: monospace;
+    -fx-font-size: 20;
+}
+
+#TEXT {
+    -fx-fill: white;
+    -fx-font-family: monospace;
+    -fx-font-size: 20;
+}
+
+.button 
+{
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+}
+
+#LINK {
+    -fx-text-fill: cornflowerblue;
+    -fx-effect: dropshadow(gaussian, dodgerblue, 3, 0.2, 0, 0);
+}
+#LINK:hover {
+    -fx-cursor: hand;
+    -fx-text-fill: deepskyblue;
+    -fx-effect: dropshadow(gaussian, cornflowerblue, 3, 0.2, 0, 0);
+}
+#LINK:pressed {
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(gaussian, white, 3, 0.2, 0, 0);
+
+}
+.scroll-bar {
+    -fx-background-color: rgb(40, 40, 40);
+}
+.scroll-bar:horizontal, .scroll-bar:vertical {
+	-fx-background-color: rgb(40, 40, 40);
+	}
+	
+.increment-button, .decrement-button {
+    -fx-background-color: rgb(40, 40, 40);
+    -fx-border-color: rgb(40, 40, 40);
+}
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track{
+    -fx-background-color: rgb(40, 40, 40);
+    -fx-border-color: rgb(40, 40, 40);
+    -fx-background-radius: 0em;
+}
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-background-color: whitesmoke;
+    -fx-background-radius: 5em;
+}
+
+.scroll-pane
+{
+	-fx-background-color: rgb(40,40,40);
+	-fx-padding: 5;
+}
+.scroll-pane > .corner {
+	-fx-background-color: rgb(40, 40, 40);
+}
+
+.scroll-pane > .viewport {
+	-fx-background-color: rgb(40, 40, 40);
+}
+
+
+
+#vbox {
+	-fx-background-color: rgb(40,40,40);
+}
+
+
+#DEAD { /*-fx-background-image: url("icone-progetto/dead-cell.png");*/ } 
+
+#INTJ { -fx-background-image: url("icone-progetto/rombo-viola.png"); -fx-cursor: hand; }
+
+#INTP { -fx-background-image: url("icone-progetto/cerchio-viola.png"); -fx-cursor: hand; }
+
+#ENTJ { -fx-background-image: url("icone-progetto/quadrato-viola.png"); -fx-cursor: hand; }
+
+#ENTP { -fx-background-image: url("icone-progetto/triangolo-viola.png"); -fx-cursor: hand; }
+
+#INFJ { -fx-background-image: url("icone-progetto/rombo-verde.png"); -fx-cursor: hand; }
+
+#INFP { -fx-background-image: url("icone-progetto/cerchio-verde.png"); -fx-cursor: hand; }
+
+#ENFJ { -fx-background-image: url("icone-progetto/quadrato-verde.png"); -fx-cursor: hand; }
+
+#ENFP { -fx-background-image: url("icone-progetto/triangolo-verde.png"); -fx-cursor: hand; }
+
+#ISTJ { -fx-background-image: url("icone-progetto/rombo-azzurro.png"); -fx-cursor: hand; }
+
+#ISFJ { -fx-background-image: url("icone-progetto/cerchio-azzurro.png"); -fx-cursor: hand; }
+
+#ESTJ { -fx-background-image: url("icone-progetto/quadrato-azzurro.png"); -fx-cursor: hand; }
+
+#ESFJ { -fx-background-image: url("icone-progetto/triangolo-azzurro.png"); -fx-cursor: hand; }
+
+#ISTP { -fx-background-image: url("icone-progetto/rombo-arancione.png"); -fx-cursor: hand; }
+
+#ISFP { -fx-background-image: url("icone-progetto/cerchio-arancione.png"); -fx-cursor: hand; }
+
+#ESTP { -fx-background-image: url("icone-progetto/quadrato-arancione.png"); -fx-cursor: hand; }
+
+#ESFP { -fx-background-image: url("icone-progetto/triangolo-arancione.png"); -fx-cursor: hand; }
+
+/*////////////////////*/
+#INTJi { -fx-background-image: url("icone-progetto/rombo-viola.png"); }
+
+#INTPi { -fx-background-image: url("icone-progetto/cerchio-viola.png"); }
+
+#ENTJi { -fx-background-image: url("icone-progetto/quadrato-viola.png"); }
+
+#ENTPi { -fx-background-image: url("icone-progetto/triangolo-viola.png"); }
+
+#INFJi { -fx-background-image: url("icone-progetto/rombo-verde.png"); }
+
+#INFPi { -fx-background-image: url("icone-progetto/cerchio-verde.png"); }
+
+#ENFJi { -fx-background-image: url("icone-progetto/quadrato-verde.png"); }
+
+#ENFPi { -fx-background-image: url("icone-progetto/triangolo-verde.png"); }
+
+#ISTJi { -fx-background-image: url("icone-progetto/rombo-azzurro.png"); }
+
+#ISFJi { -fx-background-image: url("icone-progetto/cerchio-azzurro.png"); }
+
+#ESTJi { -fx-background-image: url("icone-progetto/quadrato-azzurro.png"); }
+
+#ESFJi { -fx-background-image: url("icone-progetto/triangolo-azzurro.png"); }
+
+#ISTPi { -fx-background-image: url("icone-progetto/rombo-arancione.png"); }
+
+#ISFPi { -fx-background-image: url("icone-progetto/cerchio-arancione.png"); }
+
+#ESTPi { -fx-background-image: url("icone-progetto/quadrato-arancione.png"); }
+
+#ESFPi { -fx-background-image: url("icone-progetto/triangolo-arancione.png"); }

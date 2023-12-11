@@ -1,0 +1,128 @@
+.root {
+    -fx-background-color: rgb(40, 40, 40);
+    -fx-focus-color: rgb(170, 170, 170);
+}
+
+
+
+#VBox {
+    -fx-fill: black;
+    -fx-padding: 20;
+}
+
+/*///////////////////////////////////*/
+#menuButton {
+    -fx-background-color: rgb(20, 20, 20);
+    -fx-text-fill: whitesmoke;
+    -fx-font-family: fantasy;
+    -fx-effect: dropshadow(gaussian, rgb(20, 20, 20), 20, 0.3, 0, 3);
+    -fx-font-size: 15;
+}
+#menuButton:hover {
+    -fx-text-fill: white;
+    -fx-background-color: rgb(50, 50, 50);
+    -fx-effect: dropshadow(gaussian, whitesmoke, 3, 0.2, 0, 0);
+    -fx-cursor: hand;
+}
+#menuButton:pressed {
+    -fx-text-fill: black;
+    -fx-background-color: white;
+    -fx-effect: dropshadow(gaussian, black, 9, 0.5, 0, 0);
+}
+
+#infoButton {
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+    -fx-background-image: url("icone-progetto/info-icon.png");
+    -fx-background-size: 25px 25px;
+}
+#infoButton:hover {
+    -fx-effect: dropshadow(gaussian, white, 3, 0.2, 0, 0);
+    -fx-cursor: hand;
+}
+#infoButton:pressed {
+    -fx-effect: dropshadow(gaussian, white, 10, 0.2, 0, 0);
+}
+
+#CLEAR
+{
+	-fx-background-color: rgb(200, 0, 0);
+	-fx-font-size: 15;
+	-fx-text-fill: white;
+	-fx-font-family: fantasy;
+}
+
+#CLEAR: hover
+{
+	-fx-cursor: hand;
+	-fx-background-color: orange;
+	-fx-text-fill: black;
+}
+
+#CLEAR: pressed {
+    -fx-text-fill: black;
+    -fx-background-color: white;
+    -fx-effect: dropshadow(gaussian, black, 9, 0.5, 0, 0);
+}
+
+/*/////////////////////////*/
+.combo-box .list-cell 
+{
+    -fx-background: rgb(20, 20, 20);
+    -fx-background-color: rgb(20, 20, 20);
+    -fx-font-family: fantasy;
+    -fx-text-fill: whitesmoke;
+    -fx-cursor: hand;
+}
+
+.combo-box-popup .list-view 
+{
+    -fx-background-color: rgb(20, 20, 20), rgb(20, 20, 20);
+    -fx-effect: dropshadow(gaussian, black, 9, 0.5, 0, 0);
+    -fx-cursor: hand;
+}    
+
+.combo-box-popup .list-view .list-cell 
+{
+    -fx-background-color: rgb(20, 20, 20);
+    -fx-text-fill: whitesmoke;
+    -fx-font-family: fantasy;
+    -fx-cursor: hand;
+}
+.combo-box-popup .list-view .list-cell:filled:selected, .combo-box-popup .list-view .list-cell:filled:selected:hover 
+{
+    -fx-background: rgb(20, 20, 20);
+    -fx-background-color: rgb(20, 20, 20);
+    -fx-text-fill: whitesmoke;
+    -fx-font-family: fantasy;
+    -fx-cursor: hand;
+}
+.combo-box-popup .list-view .list-cell:filled:hover 
+{
+    -fx-background-color: orange;
+    -fx-text-fill: black;
+    -fx-font-family: fantasy;
+    -fx-cursor: hand;
+}
+.combo-box-base  
+{
+    -fx-background-color: rgb(20, 20, 20), rgb(20, 20, 20), rgb(20, 20, 20), rgb(20, 20, 20);
+    -fx-background-radius: 5, 5, 4, 3;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-padding: 0;
+    -fx-color: orange;
+}
+
+.combo-box-base:showing 
+{
+    -fx-color: orange;
+}
+.combo-box {
+    -fx-effect: dropshadow(gaussian, rgb(20, 20, 20), 20, 0.3, 0, 3);
+}
+.combo-box:hover {
+    -fx-background-color: rgb(50, 50, 50);
+    -fx-effect: dropshadow(gaussian, whitesmoke, 3, 0.2, 0, 0);
+    -fx-cursor: hand;
+}

@@ -1,0 +1,29 @@
+.scroll-bar {
+    -fx-background-color: rgb(30, 30, 30);
+}
+.scroll-bar:horizontal, .scroll-bar:vertical {
+    -fx-background-color: rgb(30, 30, 30);
+}
+.increment-button, .decrement-button {
+    -fx-background-color: rgb(30, 30, 30);
+    -fx-border-color: rgb(30, 30, 30);
+}
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track{
+    -fx-background-color: rgb(30, 30, 30);
+    -fx-border-color: rgb(30, 30, 30);
+    -fx-background-radius: 0em;
+}
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-background-color: whitesmoke;
+    -fx-background-radius: 5em;
+}
+.scroll-pane > .corner {
+	-fx-background-color: rgb(30, 30, 30);
+}
+
+.scroll-pane > .viewport {
+	-fx-background-color: rgb(0, 0, 0);
+}
+

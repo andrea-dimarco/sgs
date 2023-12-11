@@ -1,0 +1,79 @@
+.root {
+    -fx-background-color: rgb(30,30,30);
+}
+
+#TEXT {
+    -fx-fill: whitesmoke;
+    -fx-font-family: monospace;
+    -fx-font-size: 16;
+    -fx-cursor: text;
+}
+#TITLE1 {
+    -fx-font-size: 30;
+    -fx-fill: blueviolet;
+    -fx-font-family: monospace;
+    -fx-font-weight: 900;
+    -fx-cursor: text;
+}
+#TITLE2 {
+    -fx-font-size: 30;
+    -fx-fill: palegreen;
+    -fx-font-family: monospace;
+    -fx-font-weight: 900;
+    -fx-cursor: text;
+}
+#TITLE3 {
+    -fx-font-size: 30;
+    -fx-fill: deepskyblue;
+    -fx-font-family: monospace;
+    -fx-font-weight: 900;
+    -fx-cursor: text;
+}
+#TITLE4 {
+    -fx-font-size: 30;
+    -fx-fill: orange;
+    -fx-font-family: monospace;
+    -fx-font-weight: 900;
+    -fx-cursor: text;
+}
+
+.button 
+{
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+    -fx-background-size: 200px 200px;
+}
+
+/*////////////////////*/
+#INTJi { -fx-background-image: url("icone-progetto/pers/intj.png"); }
+
+#INTPi { -fx-background-image: url("icone-progetto/pers/intp.png"); }
+
+#ENTJi { -fx-background-image: url("icone-progetto/pers/entj.png"); }
+
+#ENTPi { -fx-background-image: url("icone-progetto/pers/entp.png"); }
+
+#INFJi { -fx-background-image: url("icone-progetto/pers/infj.png"); }
+
+#INFPi { -fx-background-image: url("icone-progetto/pers/infp.png"); }
+
+#ENFJi { -fx-background-image: url("icone-progetto/pers/enfj.png"); }
+
+#ENFPi { -fx-background-image: url("icone-progetto/pers/enfp.png"); }
+
+#ISTJi { -fx-background-image: url("icone-progetto/pers/istj.png"); }
+
+#ISFJi { -fx-background-image: url("icone-progetto/pers/isfj.png"); }
+
+#ESTJi { -fx-background-image: url("icone-progetto/pers/estj.png"); }
+
+#ESFJi { -fx-background-image: url("icone-progetto/pers/esfj.png"); }
+
+#ISTPi { -fx-background-image: url("icone-progetto/pers/istp.png"); }
+
+#ISFPi { -fx-background-image: url("icone-progetto/pers/isfp.png"); }
+
+#ESTPi { -fx-background-image: url("icone-progetto/pers/estp.png"); }
+
+#ESFPi { -fx-background-image: url("icone-progetto/pers/esfp.png"); }

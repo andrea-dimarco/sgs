@@ -1,0 +1,44 @@
+#FIELD
+{
+    -fx-background-color: rgb(30,30,30);
+}
+
+
+.button 
+{
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+}
+
+#INTJ { -fx-background-image: url("icone-progetto/rombo-viola.png"); -fx-cursor: hand; }
+
+#INTP { -fx-background-image: url("icone-progetto/cerchio-viola.png"); -fx-cursor: hand; }
+
+#ENTJ { -fx-background-image: url("icone-progetto/quadrato-viola.png"); -fx-cursor: hand; }
+
+#ENTP { -fx-background-image: url("icone-progetto/triangolo-viola.png"); -fx-cursor: hand; }
+
+#INFJ { -fx-background-image: url("icone-progetto/rombo-verde.png"); -fx-cursor: hand; }
+
+#INFP { -fx-background-image: url("icone-progetto/cerchio-verde.png"); -fx-cursor: hand; }
+
+#ENFJ { -fx-background-image: url("icone-progetto/quadrato-verde.png"); -fx-cursor: hand; }
+
+#ENFP { -fx-background-image: url("icone-progetto/triangolo-verde.png"); -fx-cursor: hand; }
+
+#ISTJ { -fx-background-image: url("icone-progetto/rombo-azzurro.png"); -fx-cursor: hand; }
+
+#ISFJ { -fx-background-image: url("icone-progetto/cerchio-azzurro.png"); -fx-cursor: hand; }
+
+#ESTJ { -fx-background-image: url("icone-progetto/quadrato-azzurro.png"); -fx-cursor: hand; }
+
+#ESFJ { -fx-background-image: url("icone-progetto/triangolo-azzurro.png"); -fx-cursor: hand; }
+
+#ISTP { -fx-background-image: url("icone-progetto/rombo-arancione.png"); -fx-cursor: hand; }
+
+#ISFP { -fx-background-image: url("icone-progetto/cerchio-arancione.png"); -fx-cursor: hand; }
+
+#ESTP { -fx-background-image: url("icone-progetto/quadrato-arancione.png"); -fx-cursor: hand; }
+
+#ESFP { -fx-background-image: url("icone-progetto/triangolo-arancione.png"); -fx-cursor: hand; }
